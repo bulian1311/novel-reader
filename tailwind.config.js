@@ -6,11 +6,10 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'comic': ['Comic Neue', ...defaultTheme.fontFamily.sans]
-      },
+    fontFamily: {
+      'sans': ['Comic Neue', 'Helvetica Neue', 'Helvetica', 'sans-serif']
     },
+    extend: {},
   },
   plugins: [],
 }

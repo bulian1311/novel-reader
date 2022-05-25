@@ -1,5 +1,5 @@
-import React from "react";
-import { RootStore } from "../store";
+import React from 'react';
+import { RootStore } from '../store';
 
 export const defaultStore = new RootStore();
 

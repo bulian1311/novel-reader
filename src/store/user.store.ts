@@ -1,6 +1,6 @@
-import { makeObservable, observable, action } from "mobx";
+import { makeObservable, observable, action } from 'mobx';
 
-import { RootStore } from "./root.store";
+import { RootStore } from './root.store';
 
 export class UserStore {
   rootStore: RootStore;
@@ -13,7 +13,7 @@ export class UserStore {
     });
   }
 
-  username: string = "username";
+  username: string = 'username';
 
   setUsername = (value: string) => {
     this.username = value;
