@@ -35,4 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 # development data base
-/dev.db
+/data
+# development images
+/public/img

@@ -1,12 +1,10 @@
 import type { NextPage } from 'next';
-import Image from 'next/image';
+import { ItemCard } from '../components';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+      <ItemCard />
     </div>
   );
 };
