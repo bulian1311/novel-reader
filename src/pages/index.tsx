@@ -1,12 +1,3 @@
-import type { NextPage } from 'next';
-import { ItemCard } from '../components';
+import { HomePage } from './home.page';
 
-const Home: NextPage = () => {
-  return (
-    <div>
-      <ItemCard />
-    </div>
-  );
-};
-
-export default Home;
+export default HomePage;
